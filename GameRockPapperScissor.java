@@ -79,31 +79,33 @@ public class GameRockPapperScissor{
       break;
       game++;
     }  
-    System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.--.");
-    System.out.println("computer :- " +cwon);
-    System.out.println("you :- " +iwon);
-    System.out.println("---------------------------------------------------------------");
+    System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
+    System.out.println("------------------------------------------------------------");
+    System.out.println(" Computer :- " +cwon);
+    System.out.println(" You      :- " +iwon);
+    System.out.println("------------------------------------------------------------");
+    System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
     if (iwon>cwon){
-      System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+      System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-");
 
-      System.out.println(" you won the game and computer loss");
-      System.out.println("--------------------------------------------------------------");
+      System.out.println(" you won the game and computer loss ");
+      System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-");
 
     }
 
     else if (cwon==iwon) { 
-      System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+      System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-..");
 
-      System.out.println("game tie");
-      System.out.println("----------------------------------------------------------------");
+      System.out.println("game tie ");
+      System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-");
 
     }
 
     else{
-      System.out.println("-------------------------------------------------------------------------");
+      System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-");
 
-      System.out.println("you loss the and computer won the game");
-      System.out.println("-------------------------------------------------------------------------");
+      System.out.println("you loss the and computer won the game ");
+      System.out.println("-.-.-.-.-.-.-.-.-.-.-.-.-.--.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-");
 
     }
   }
